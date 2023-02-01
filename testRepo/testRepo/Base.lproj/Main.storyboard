@@ -30,6 +30,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
                                     <action selector="btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jE6-2B-4Ps"/>
+                                    <segue destination="y7w-IY-tx5" kind="show" id="hqA-0J-i5s"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -43,6 +44,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-16.030534351145036" y="4.9295774647887329"/>
+        </scene>
+        <!--story-->
+        <scene sceneID="SeQ-ET-5gE">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SecondStoryBoard" referencedIdentifier="story" id="y7w-IY-tx5" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="kDe-bU-mgZ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qhW-Bl-MTy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="593" y="-11"/>
         </scene>
     </scenes>
     <resources>

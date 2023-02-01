@@ -10,6 +10,8 @@ import UIKit
 class SecondViewController: UIViewController {
 
     @IBOutlet weak var secondLabel: UILabel!
+    @IBOutlet weak var againLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -18,6 +20,7 @@ class SecondViewController: UIViewController {
     
     @IBAction func secondBtn(_ sender: Any) {
         secondLabel.text = "Done"
+        againLabel.text = "Again"
     }
     
     /*
